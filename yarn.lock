@@ -1781,6 +1781,13 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.15.14.tgz#f7c57b261904831877220182303761c012d05046"
   integrity sha512-on75VMd0XqZfaQW+9pGjSNiqW+ghc5E2ZSLRBXwcXl/C4YzjfyjrLPhrEpKnR9Uym9KXBvxrhoHfPcczYHweyA==
 
+"@mui/icons-material@^5.15.14":
+  version "5.15.14"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.14.tgz#333468c94988d96203946d1cfeb8f4d7e8e7de34"
+  integrity sha512-vj/51k7MdFmt+XVw94sl30SCvGx6+wJLsNYjZRgxhS6y3UtnWnypMOsm3Kmg8TN+P0dqwsjy4/fX7B1HufJIhw==
+  dependencies:
+    "@babel/runtime" "^7.23.9"
+
 "@mui/material@^5.15.14":
   version "5.15.14"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.15.14.tgz#a40bd5eccfa9fc925535e1f4d70c6cef77fa3a75"
@@ -1895,12 +1902,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-<<<<<<< HEAD
 "@popperjs/core@^2.11.8":
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
-=======
+
 "@reduxjs/toolkit@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-2.2.2.tgz#952fc8f8315d7274e28f6e4608b7ec66fce7e94e"
@@ -1910,7 +1916,6 @@
     redux "^5.0.1"
     redux-thunk "^3.1.0"
     reselect "^5.0.1"
->>>>>>> 2cdc3e4cded65c8860d3ab91beb50def902f1fef
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -9540,10 +9545,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@3.4.0:
-  version "5.5.0-dev.20240327"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.0-dev.20240327.tgz#bd5aa22496947a32eef83f2339b04c51cccaebaf"
-  integrity sha512-8nAu1p3cwPDGwuJ2XyLonUMdWYtHIyFRi/3qA0FYNmArajdxYW15fh9szcDlLF1nPz/3kM7sbT1q8K7GLTPvxA==
+typescript@^3.5.0:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
