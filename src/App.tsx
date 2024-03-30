@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Footer, Header } from "./components";
-import { LoginPage } from "./pages";
+import { LoginPage, SignupPage } from "./pages";
 // import { LoginPage } from './pages/login';
 // import { Counter } from './pages/Counter';
 // import { SignupPage } from './pages';
@@ -16,7 +16,8 @@ function App() {
       <div className="main">
         <Header />
 
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <SignupPage />
         <Header />
       </div>
 

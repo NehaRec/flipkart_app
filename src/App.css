@@ -49,3 +49,28 @@
 .center{
   text-align: center;
 }
+
+.button{
+  background-color: #F5651C;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: '100%';
+  margin-top: 50px;
+  cursor: pointer;
+  /* width: 400px; */
+  
+}
+
+
+.title{
+  text-align: left;
+  font-size: 30px;
+font-weight: bold;
+}
+.caption{
+  font-size: 12px;
+  margin-top: 20px;
+  color: #7e8287;
+}
