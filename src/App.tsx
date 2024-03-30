@@ -1,6 +1,8 @@
-import React from 'react';
-import './App.css';
-import { Footer, Header } from './components';
+import React from "react";
+import "./App.css";
+import { Footer, Header } from "./components";
+import { LoginPage } from "./pages";
+// import { LoginPage } from './pages/login';
 // import { Counter } from './pages/Counter';
 // import { SignupPage } from './pages';
 // import SignupPage from './pages/signup/SignupPage';
@@ -11,10 +13,14 @@ import { Footer, Header } from './components';
 function App() {
   return (
     <div className="App">
-       <Header/>
-      
+      <div className="main">
+        <Header />
+
+        <LoginPage />
+        <Header />
+      </div>
+
       {/* <Counter/>  */}
-    
     </div>
   );
 }
